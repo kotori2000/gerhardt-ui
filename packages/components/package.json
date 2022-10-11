@@ -1,0 +1,27 @@
+{
+  "name": "gerhardt-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "module":"es/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build --config vite.config.ts"
+  },
+  "files": [
+    "es",
+    "lib"
+  ],
+  "keywords": [
+    "gerhardt-ui",
+    "Vue3组价库"
+  ],
+  "author": "jianhao",
+  "license": "ISC",
+  "dependencies": {
+    "@gerhardt-ui/utils": "workspace:^1.0.0"
+  },
+  "devDependencies": {
+    "vite": "^3.1.7"
+  }
+}
