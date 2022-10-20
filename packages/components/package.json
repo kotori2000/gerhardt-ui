@@ -6,7 +6,8 @@
   "module":"es/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "vite build --config vite.config.ts"
+    "build": "vite build & esno build/buildLess",
+    "build:less": "esno build/buildLess"
   },
   "files": [
     "es",
